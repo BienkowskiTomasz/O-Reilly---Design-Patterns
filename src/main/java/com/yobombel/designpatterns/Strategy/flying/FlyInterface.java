@@ -1,4 +1,4 @@
-package com.yobombel.designpatterns.Introduction.flying;
+package com.yobombel.designpatterns.Strategy.flying;
 
 public interface FlyInterface {
 

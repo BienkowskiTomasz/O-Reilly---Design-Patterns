@@ -1,7 +1,7 @@
-package com.yobombel.designpatterns.Introduction;
+package com.yobombel.designpatterns.Strategy;
 
-import com.yobombel.designpatterns.Introduction.flying.FlyWithWings;
-import com.yobombel.designpatterns.Introduction.quacking.Quack;
+import com.yobombel.designpatterns.Strategy.flying.FlyWithWings;
+import com.yobombel.designpatterns.Strategy.quacking.Quack;
 
 //Kaczka Krzyżówka
 public class MallardDuck  extends Duck {

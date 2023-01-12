@@ -1,4 +1,4 @@
-package com.yobombel.designpatterns.Introduction.quacking;
+package com.yobombel.designpatterns.Strategy.quacking;
 
 public class CantQuack implements QuackInterface{
 

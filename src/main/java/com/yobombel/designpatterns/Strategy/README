@@ -1,0 +1,5 @@
+The Strategy Design Pattern defines a group of related algorithms, encapsulates them as individual classes, and makes them interchangeable. Using this design pattern enables independent modifications to these algorithms that are independent from the clients that utilize them.
+
+1. Recognize the parts of your program that are subject to change and separate them from the parts that remain constant.
+2. Focus on developing interfaces rather than implementations.
+3. Favour composition over inheritance.
