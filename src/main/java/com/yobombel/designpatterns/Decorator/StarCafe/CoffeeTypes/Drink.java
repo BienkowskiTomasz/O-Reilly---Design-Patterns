@@ -1,4 +1,4 @@
-package com.yobombel.designpatterns.Decorator.StarCafe;
+package com.yobombel.designpatterns.Decorator.StarCafe.CoffeeTypes;
 
 public abstract class Drink {
 

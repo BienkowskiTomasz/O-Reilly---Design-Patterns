@@ -1,11 +1,13 @@
 package com.yobombel.designpatterns.Decorator.StarCafe.CoffeeTypes;
 
-import com.yobombel.designpatterns.Decorator.StarCafe.Drink;
-
 public class HeavyRoast extends Drink {
+
+    public HeavyRoast() {
+        description = "Heavy roast coffee";
+    }
 
     @Override
     public double cost() {
-        return 0;
+        return 4;
     }
 }

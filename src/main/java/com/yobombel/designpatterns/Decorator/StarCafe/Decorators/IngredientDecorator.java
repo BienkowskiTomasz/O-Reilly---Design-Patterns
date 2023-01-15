@@ -1,6 +1,6 @@
 package com.yobombel.designpatterns.Decorator.StarCafe.Decorators;
 
-import com.yobombel.designpatterns.Decorator.StarCafe.Drink;
+import com.yobombel.designpatterns.Decorator.StarCafe.CoffeeTypes.Drink;
 
 public abstract class IngredientDecorator extends Drink {
 

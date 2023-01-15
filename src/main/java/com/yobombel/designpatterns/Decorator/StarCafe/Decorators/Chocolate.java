@@ -4,7 +4,7 @@ public class Chocolate extends IngredientDecorator{
 
     @Override
     public String getDescription() {
-        return "Chocolate";
+        return "+ chocolate";
     }
 
     @Override

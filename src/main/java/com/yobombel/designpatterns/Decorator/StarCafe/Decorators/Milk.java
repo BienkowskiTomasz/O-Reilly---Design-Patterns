@@ -4,7 +4,7 @@ public class Milk extends IngredientDecorator{
 
     @Override
     public String getDescription() {
-        return "Milk";
+        return "+ milk";
     }
 
     @Override
