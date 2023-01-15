@@ -1,14 +1,18 @@
 package com.yobombel.designpatterns.Decorator.StarCafe.Decorators;
 
+import com.yobombel.designpatterns.Decorator.StarCafe.CoffeeTypes.Drink;
+
 public class Milk extends IngredientDecorator{
 
-    @Override
-    public String getDescription() {
-        return "+ milk";
+    public Milk(Drink drink) {
+        this.drink = drink;
     }
 
-    @Override
+    public String getDescription() {
+        return drink.getDescription() + ", milk";
+    }
+
     public double cost() {
-        return 0.5;
+        return drink.cost() + 0.45;
     }
 }

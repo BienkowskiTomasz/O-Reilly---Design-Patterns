@@ -6,8 +6,7 @@ public class Decaffeinated extends Drink {
         description = "Decaffeinated coffee";
     }
 
-    @Override
     public double cost() {
-        return 5.0;
+        return 5.35;
     }
 }

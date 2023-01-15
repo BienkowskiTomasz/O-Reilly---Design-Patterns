@@ -6,8 +6,7 @@ public class HeavyRoast extends Drink {
         description = "Heavy roast coffee";
     }
 
-    @Override
     public double cost() {
-        return 4;
+        return 5.21;
     }
 }

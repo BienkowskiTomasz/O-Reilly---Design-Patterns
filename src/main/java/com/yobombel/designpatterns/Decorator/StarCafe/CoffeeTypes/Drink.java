@@ -10,5 +10,8 @@ public abstract class Drink {
 
     public abstract double cost();
 
-
+    @Override
+    public String toString() {
+        return this.getDescription() + " $" + this.cost();
+    }
 }

@@ -6,8 +6,7 @@ public class StarCafeSpecial extends Drink {
         description = "Star Cafe Special coffee";
     }
 
-    @Override
     public double cost() {
-        return 5;
+        return 4.99;
     }
 }

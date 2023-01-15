@@ -1,14 +1,18 @@
 package com.yobombel.designpatterns.Decorator.StarCafe.Decorators;
 
-public class WhippedCream extends IngredientDecorator{
+import com.yobombel.designpatterns.Decorator.StarCafe.CoffeeTypes.Drink;
 
-    @Override
-    public String getDescription() {
-        return "+ whipped cream";
+public class WhippedCream extends IngredientDecorator {
+
+    public WhippedCream(Drink drink) {
+        this.drink = drink;
     }
 
-    @Override
+    public String getDescription() {
+        return drink.getDescription() + ", whipped cream";
+    }
+
     public double cost() {
-        return 0.75;
+        return drink.cost() + 0.69;
     }
 }
