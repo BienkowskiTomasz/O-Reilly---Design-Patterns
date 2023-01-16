@@ -1,0 +1,11 @@
+The Decorator Pattern allows for the dynamic addition of new behaviors to a given object.
+Decorators give elasticity similar to that of inheritance with enhanced functionality.
+
+Classes should be open for extension but closed for modification.
+
+Decorator adds own behaviors before delegating the main task to the decorated object, and/or after the decorated object has completed it.
+
+Decorators are the same type as decorated objects.
+Base class can be wrapped in one or more decorators.
+Assuming that decorator is of the same type as decorated object we can pass on wrapper instead of base object.
+Objects can be decorated at any time (even during runtime).
